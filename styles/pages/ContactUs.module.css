@@ -1,0 +1,350 @@
+.contact_section {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 26, 46, 1) 0%,
+    rgba(17, 24, 54, 1) 0%,
+    rgba(12, 54, 112, 1) 36%,
+    rgba(18, 38, 78, 1) 100%
+  );
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.contactus_main_heading {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactus_main_heading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 1;
+}
+
+.background_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  box-shadow: 0px 15px 20px -10px rgba(0, 0, 0, 0.8);
+}
+
+.overlay_content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.overlay_content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay_content h6 {
+  font-size: 1rem;
+}
+
+.demo_email {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 22%;
+  color: snow;
+  font-weight: bold;
+}
+.emil_dash_underline {
+  display: flex;
+  height: 1px;
+  width: 150px;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgb(224, 225, 226) 49.52%,
+    rgba(224, 225, 226, 0) 100%
+  );
+  font-weight: bold;
+}
+.contactus_main_heading h1 {
+  font-size: 50px;
+}
+
+.cintact_info h6 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cintact_info h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.contact_email p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.dash_underline {
+  display: flex;
+  position: absolute;
+  left: 0%;
+  height: 1px;
+  width: 250px;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgb(224, 225, 226) 49.52%,
+    rgba(224, 225, 226, 0) 100%
+  );
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.get_dash_underline {
+  display: flex;
+  height: 1px;
+  width: 150px;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgb(224, 225, 226) 49.52%,
+    rgba(224, 225, 226, 0) 100%
+  );
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.contactus_main_heading h6 a {
+  text-decoration: none;
+}
+.wave {
+  position: absolute;
+  width: 20%;
+  height: 100vh;
+  z-index: 99;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0 2rem;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.img img {
+  animation: fadeInSlide 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.contact_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 35vw;
+  margin-top: 20%;
+  max-width: 600px;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 26, 46, 1) 0%,
+    rgba(17, 24, 54, 1) 0%,
+    rgba(12, 54, 112, 1) 36%,
+    rgba(18, 38, 78, 1) 100%
+  );
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3),
+    -10px -10px 30px rgba(255, 255, 255, 0.5);
+}
+
+.contactus_heading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.form_group {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+
+.form_group:focus {
+  outline: none;
+  border-color: #6a329f;
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1),
+    inset -5px -5px 15px rgba(255, 255, 255, 1);
+}
+
+.fxt_btn_fill {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 26, 46, 1) 0%,
+    rgba(17, 24, 54, 1) 0%,
+    rgba(12, 54, 112, 1) 36%,
+    rgba(18, 38, 78, 1) 100%
+  );
+  border: 1px solid white;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fxt_btn_fill:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(17, 24, 54, 1) 0%,
+    rgba(18, 38, 78, 1) 36%,
+    rgba(12, 54, 112, 1) 100%
+  );
+}
+
+.img img {
+  width: 550px;
+  margin-left: 100px;
+}
+.contactus_heading {
+  position: relative;
+  z-index: 1;
+}
+
+.register_label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form_group {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form_group:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 1024px) {
+  .img img {
+    position: absolute;
+    top: 30%;
+    left: 29px;
+    height: 450px;
+    width: 400px;
+  }
+  .contact_box {
+    width: 30vw;
+    position: relative;
+    z-index: 1;
+  }
+  .demo_email {
+    justify-content: flex-end;
+    right: 7%;
+  }
+  .cintact_info h1 {
+    font-size: 35px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img img {
+    display: none;
+  }
+  .contact_box {
+    position: relative;
+    z-index: 1;
+    width: 67vw;
+  }
+  .demo_email {
+    justify-content: flex-end;
+    right: 7%;
+  }
+  .contact_email p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .cintact_info h1 {
+    font-size: 25px;
+    margin-right: 70px;
+  }
+}
+@media (max-width: 480px) {
+  .dash_underline {
+    left: 10%;
+  }
+  .img img {
+    display: none;
+  }
+  .contact_box {
+    width: 87.1vw;
+    position: absolute;
+    top: 24%;
+    left: 25px;
+    z-index: 1;
+  }
+  .contact_email p {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .cintact_info h1 {
+    font-size: 15px;
+  }
+  .cintact_info h6 {
+    font-size: 15px;
+  }
+}

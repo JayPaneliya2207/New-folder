@@ -1,0 +1,95 @@
+/* General styling */
+.container-fluid {
+  padding: 15px;
+  /* background-color: #f9f9f9; */
+}
+
+/* Page title */
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  display: flex;
+  list-style: none;
+}
+
+.breadcrumbItem {
+  margin-right: 5px;
+}
+
+/* Card styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-remove {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-remove:hover {
+  background-color: #0056b3;
+}
+
+/* Title and separator */
+.text-uppercase {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .btn-remove {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-group {
+    font-size: 14px;
+  }
+
+  .page-title {
+    font-size: 18px;
+  }
+
+  .btn-remove {
+    font-size: 12px;
+  }
+}

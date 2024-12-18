@@ -1,0 +1,238 @@
+.epin_contain_section {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.generate_pin {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  width: 100%;
+  color: white;
+  box-shadow: 0 4px 10px rgba(50, 178, 252, 0.2);
+  border-radius: 5px;
+  display: flex;
+}
+.darkmode_epin_contain_section {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+
+.epin_body {
+  background-image: url("/images/dashboard/txbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.generate_pin .form-control {
+  width: 100%;
+}
+
+.customSelect {
+  appearance: none;
+  background-color: white;
+  background-image: linear-gradient(45deg, transparent 50%, black 50%),
+    linear-gradient(135deg, black 50%, transparent 50%);
+  background-position: right 10px top 50%, right 5px top 50%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+}
+.epin_transfer {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  padding: 10px;
+}
+.darkmode_epin_transfer {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  padding: 10px;
+  box-shadow: 0 1px 4px 10px rgba(50, 178, 252, 0.2);
+}
+@keyframes pulse {
+  0%,
+  100% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 300% 300%;
+  }
+}
+
+@keyframes wavySlide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.active_balance {
+  background: linear-gradient(to bottom right, #0a504a, #38ef7d);
+  background-size: 200% 200%;
+  color: #fff;
+  animation: wavySlide 3s linear infinite;
+}
+.pending_balance {
+  background: linear-gradient(to bottom, #373b44, #4286f4);
+  background-size: 200% 200%;
+  color: #fff;
+  animation: pulse 3s ease-in-out infinite;
+}
+.wallet_balance {
+  background: linear-gradient(to bottom, #a86008, #ffba56);
+  background-size: 200% 200%;
+  color: #fff;
+  animation: pulse 3s ease-in-out infinite;
+}
+.request_history_btn {
+  width: 100px;
+  transition: background-color 0.3s;
+}
+
+.request_history_btn:hover {
+  background-color: #3bb1ff;
+  color: #fff;
+}
+
+.data_table_container {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  box-shadow: 0 4px 10px rgba(50, 178, 252, 0.2);
+  color: white;
+}
+
+@keyframes fadeInSlidePinRequest {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.response_pin_img {
+  animation: fadeInSlidePinRequest 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.pin_request {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  background-image: url("/images/dashboard/teambg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(18, 148, 253, 0.2);
+}
+.pin_request_inner {
+  padding: 10px;
+}
+
+.pinHistory_sidebar {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 15, 47, 1) 36%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(253, 172, 23, 0.2);
+}
+.request_history_btn {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .pin_gen_img {
+    width: 500px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pin_gen_img {
+    width: 400px !important;
+  }
+  .btn_fund_request {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .epin_contain_section {
+    height: 100%;
+  }
+  .pin_gen_img {
+    width: 350px !important;
+  }
+  .epin_body {
+    margin-left: 20px;
+  }
+  .btn_fund_request {
+    width: 100px;
+  }
+  .btn_fund_request {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .epin_contain_section {
+    height: 100%;
+  }
+  .pin_gen_img {
+    width: 300px !important;
+  }
+  .epin_body {
+    margin-left: 10px;
+  }
+  .pin_request {
+    height: 100vh;
+  }
+  .btn_fund_request {
+    width: 100px;
+  }
+
+  .response_pin_request {
+    display: block !important;
+  }
+  .response_pin_img {
+    margin-top: -35px;
+  }
+}

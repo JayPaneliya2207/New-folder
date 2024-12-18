@@ -1,0 +1,75 @@
+.formContainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+  flex-wrap: wrap; /* Allow items to wrap */
+  gap: 10px; /* Add space between items */
+}
+.inputGroup {
+  flex: 1; /* Allow input field to grow */
+  min-width: 250px; /* Minimum width */
+  max-width: 100%; /* Max width for responsiveness */
+}
+.inputField {
+  width: 100%; /* Full width */
+  border-radius: 0.25rem;
+}
+.buttonGroup {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.btn {
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btnPrimary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btnSecondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .inputField {
+    min-width: 100%; /* Take full width on mobile */
+  }
+
+  .buttonGroup {
+    flex-direction: column; /* Stack buttons on small screens */
+    margin-left: 0; /* Reset left margin */
+  }
+
+  .buttonGroup .btn {
+    width: 100%; /* Full width buttons */
+    margin-bottom: 10px; /* Spacing between buttons */
+  }
+}
+@media (min-width: 576px) {
+  .formContainer {
+    flex-direction: row; /* Row direction on larger screens */
+    align-items: center; /* Center items vertically */
+  }
+}
+.filterForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.filterInput {
+  width: 100%;
+}
+.filterForm {
+  max-width: 600px;
+}
+.filterFormApproed {
+  max-width: 600px;
+}

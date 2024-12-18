@@ -1,0 +1,160 @@
+.pu_pagetitle_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%; /* Full width */
+}
+
+.pu_pagetitle_wrapper h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.pu_pagetitle_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px; /* Adds space between input and button */
+}
+
+.pu_search_wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%; /* Full width */
+  max-width: 300px; /* Adjust to fit screens */
+  flex-grow: 1;
+}
+
+.pu_search_wrapper input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.pu_search_icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pu_btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 46px;
+  background-image: var(--gradient-common);
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+.pu_btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .pu_pagetitle_wrapper {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start;
+  }
+
+  .pu_pagetitle_right {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px; /* Adjust spacing between items */
+  }
+
+  .pu_search_wrapper {
+    max-width: 100%;
+    margin-bottom: 10px; /* Add space for small screens */
+  }
+
+  .pu_btn {
+    width: 100%; /* Full width button on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .pu_pagetitle_wrapper h3 {
+    font-size: 1.25rem; /* Smaller title for small screens */
+  }
+
+  .pu_btn {
+    font-size: 0.875rem;
+    padding: 8px 12px;
+  }
+
+  .pu_search_wrapper input {
+    font-size: 0.875rem;
+    padding: 6px 10px;
+  }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff0000;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #34b800;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+.Link_edit_account {
+  background: #00fff3 !important;
+  padding: 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-masonry;
+  color: white;
+}

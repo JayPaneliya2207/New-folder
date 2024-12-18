@@ -1,0 +1,8 @@
+.layout {
+    display: flex;
+  }
+.all_route{
+  position: absolute;
+  left: 16.5%;
+  top: 15%;
+}

@@ -1,0 +1,141 @@
+/* PendingStock.module.css */
+
+/* Header Section */
+.pageTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form Section */
+.filterForm {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.formRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.formGroup {
+  flex: 1;
+  min-width: 250px;
+}
+
+.formControl,
+.selectControl {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.primaryBtn:hover {
+  background-color: #0056b3;
+}
+
+.secondaryBtn {
+  background-color: #f0f0f0;
+  color: #333;
+  margin-left: 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+}
+
+.secondaryBtn:hover {
+  background-color: #e6e6e6;
+}
+
+/* Stats Section */
+.statsContainer {
+  margin-bottom: 30px;
+}
+
+.statsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.statsTable th,
+.statsTable td {
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.statsTable th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+/* Table Section */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* .table th {
+  background-color: #007bff;
+  color: white;
+} */
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.noData {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #777;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .formRow {
+    flex-direction: column;
+  }
+
+  .formGroup {
+    min-width: 100%;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    padding: 10px;
+  }
+}

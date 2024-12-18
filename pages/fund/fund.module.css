@@ -1,0 +1,25 @@
+.addfuns_walet{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+.fund_btn{
+    width: 70px;
+    margin: 5px;
+}
+.addfuns_result{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 100%; 
+}
+.fund_request_btn{
+    width: 100px;
+}
+.addfuns_result h3{
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    border-bottom: 1px solid rgb(167, 165, 165);
+}
+.request_history_btn{
+    width: 100px;
+    margin: 5px;
+}

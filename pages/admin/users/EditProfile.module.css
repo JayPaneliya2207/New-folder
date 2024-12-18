@@ -1,0 +1,80 @@
+.pages_container {
+  padding: 20px;
+}
+
+.cardBody {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formControl {
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+}
+.row {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+.btnRemove {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.lableSection {
+  color: #575e61;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardBody {
+    padding: 15px;
+  }
+
+  .pageTitle {
+    font-size: 18px;
+  }
+
+  .formControl {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .btnRemove {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cardBody {
+    padding: 10px;
+  }
+
+  .formControl {
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .pageTitle {
+    font-size: 16px;
+  }
+
+  .btnRemove {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}

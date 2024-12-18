@@ -1,0 +1,100 @@
+/* Container styling */
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Page Title Styling */
+.pageTitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Form Styling for Single Row */
+.filterForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.formControl {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.formControl:focus {
+  border-color: #80bdff;
+  outline: none;
+}
+
+.primaryButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.primaryButton:hover {
+  background-color: #0056b3;
+}
+
+.secondaryButton {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.secondaryButton:hover {
+  background-color: #5a6268;
+}
+
+/* Table Styling */
+.tableContainer {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #e9ecef;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  font-weight: bold;
+  background-color: #f1f1f1;
+}
+
+.table td {
+  background-color: #ffffff;
+}
+
+.noData {
+  text-align: center;
+  padding: 20px;
+  color: #6c757d;
+}

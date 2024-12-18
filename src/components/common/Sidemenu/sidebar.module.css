@@ -1,0 +1,99 @@
+.hideSidebar {
+  transform: translateX(-100%);
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hasDropdown {
+  position: relative;
+}
+
+.sidebarDropdown {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #172b4d;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 10;
+}
+
+.hasDropdown:hover .sidebarDropdown {
+  display: block;
+}
+
+.sidebarDropdown li {
+  padding: 10px;
+}
+
+.sidebarDropdown li a {
+  color: white;
+  text-decoration: none;
+}
+.admin_sidebar_section {
+  background-color: #172b4d !important;
+  transition: transform 0.3s ease-in-out;
+  width: 250px;
+  height: 93vh;
+  overflow-y: auto;
+  position: relative;
+  position: fixed;
+  z-index: 1;
+}
+
+.admin_sidebar_section::-webkit-scrollbar {
+  display: none;
+}
+
+.admin_sidebar_section {
+  scrollbar-width: none;
+}
+
+.admin_sidebar_section {
+  -ms-overflow-style: none;
+}
+
+.sidebar .pro-menu-item {
+  color: white !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar .pro-menu-item:hover {
+  background-color: #0d1b2a !important;
+  color: #ffffff !important;
+}
+
+/* Change SubMenu button color */
+.sidebar .pro-submenu-title {
+  color: white !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar .pro-submenu-title:hover {
+  background-color: #0d1b2a !important;
+  color: #ffffff !important;
+}
+
+/* Active menu item styling */
+.sidebar .pro-menu-item.active {
+  background-color: #0d1b2a !important;
+  color: #ffffff !important;
+}
+
+/* Active submenu button styling */
+.sidebar .pro-submenu-title.active {
+  background-color: #0d1b2a !important;
+  color: #ffffff !important; /* Active SubMenu button text color */
+}
+/* .sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  position: absolute;
+  width: 250px !important;
+} */

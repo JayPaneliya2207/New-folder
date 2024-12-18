@@ -1,0 +1,261 @@
+.fund_section_container {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.darkmode_fund_section_container {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.addfund_section_container {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.fund_request_history_section {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.addfund_section {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.darkmode_fund_request_history_section {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.data_table_container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  height: 85vh;
+  box-shadow: 1px 0px 4px 4px rgba(50, 176, 248, 0.3);
+}
+.darkmode_addfund_section_container {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.addfund_sidebar {
+  background: linear-gradient(
+    127.09deg,
+    rgba(10, 14, 35, 0.49) 19.41%,
+    rgba(24, 29, 60, 0.94) 76.65%
+  );
+  color: #fff;
+  box-shadow: 1px 0px 4px 4px rgba(252, 208, 66, 0.3);
+}
+.addfuns_result_walet {
+  box-shadow: 1px 0px 4px 4px rgba(252, 208, 66, 0.3);
+  background: linear-gradient(
+    127.09deg,
+    rgba(10, 14, 35, 0.49) 19.41%,
+    rgba(24, 29, 60, 0.94) 76.65%
+  );
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+}
+.addfuns_walet {
+  box-shadow: 1px 0px 4px 4px rgba(252, 208, 66, 0.3);
+  background: linear-gradient(
+    127.09deg,
+    rgba(10, 14, 35, 0.49) 19.41%,
+    rgba(24, 29, 60, 0.94) 76.65%
+  );
+  background-image: url("/images/dashboard/curved.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  padding: 15px;
+  color: #fff;
+  height: auto;
+}
+
+.result_border {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgb(224, 225, 226) 49.52%,
+    rgba(224, 225, 226, 0) 100%
+  );
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+.fund_btn {
+  width: 70px;
+  margin: 5px;
+}
+.addfuns_result {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+.fund_request_btn {
+  width: 100px;
+}
+.addfuns_result h3 {
+  height: 40px;
+  width: 100%;
+  margin: 0px;
+  border-bottom: 1px solid rgb(167, 165, 165);
+}
+
+.qrcode_section {
+  height: 500px;
+  width: 500px;
+}
+.wallet_input {
+  display: flex;
+}
+.linkToCopy {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.copyButton {
+  border-radius: 8px;
+  margin-left: 3px;
+  background-color: #f97407;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.request_history_btn {
+  width: 100px;
+  margin: 5px;
+}
+.transfer_fund {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.fund_transfer_sec {
+  background: linear-gradient(
+    127.09deg,
+    rgba(10, 14, 35, 0.49) 19.41%,
+    rgba(24, 29, 60, 0.94) 76.65%
+  );
+  background-image: url("/images/dashboard/teambg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 1px 0px 4px 4px rgba(50, 176, 248, 0.3); */
+}
+.img_fluid {
+  margin-left: 25px;
+}
+.transfer_form {
+  position: absolute;
+  right: 25px;
+  top: 20%;
+}
+.fundConvert_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transfer_wallet_heading {
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .transfer_form {
+    position: absolute;
+    width: 50%;
+    right: 0px;
+    top: 20%;
+    display: flex;
+  }
+  .img_fluid {
+    margin-left: 5px;
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .fund_transfer_sec {
+    display: block !important;
+  }
+  .transfer_form {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .img_fluid {
+    margin-left: 95px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .transfer_form {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .img_fluid {
+    width: 100%;
+    margin-left: 6px;
+  }
+  .direct_section {
+    display: block !important;
+  }
+  .addfund_sidebar {
+    width: 100% !important;
+  }
+}

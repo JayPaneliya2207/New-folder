@@ -1,0 +1,51 @@
+.containerFluid {
+  padding: 15px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.cardBody {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.switchWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.switchText {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+}

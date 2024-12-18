@@ -1,0 +1,158 @@
+/* Container adjustments */
+.container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Breadcrumb styles */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.breadcrumb li {
+  margin-right: 10px;
+}
+
+.breadcrumb li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .active {
+  color: #6c757d;
+  font-weight: bold;
+}
+
+/* Card styles */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Table wrapper for scrolling */
+.tableWrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #dee2e6;
+  font-size: 14px;
+}
+
+.table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+}
+
+/* Checkbox label styles */
+.checkboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkboxItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkboxLabel {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .breadcrumb li {
+    margin-right: 5px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .checkboxContainer {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .checkboxLabel {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .breadcrumb {
+    font-size: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 10px;
+    padding: 6px;
+  }
+
+  .checkboxContainer {
+    gap: 5px;
+  }
+
+  .checkboxLabel {
+    font-size: 10px;
+  }
+}

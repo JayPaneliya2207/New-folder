@@ -1,0 +1,112 @@
+/* FundTransfer.module.css */
+.pagesContainer {
+  padding: 20px;
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  display: flex;
+  list-style: none;
+}
+
+.breadcrumbItem {
+  margin-right: 5px;
+}
+
+.cardBody {
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.formGroup {
+  flex: 1;
+  min-width: 220px; /* To keep form inputs from shrinking too much */
+}
+.formControl {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btnPrimary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.formContainer {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  margin: 10px 0;
+  width: 100%;
+  padding: 15px;
+  /* background-color: #f9f9f9; 
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.formRow {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.formGroup {
+  flex: 1;
+  min-width: 220px; /* To keep form inputs from shrinking too much */
+}
+
+.btnPrimary:hover {
+  background-color: #0056b3;
+}
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+/* Media query for mobile responsiveness */
+@media (max-width: 576px) {
+  .pageTitle {
+    font-size: 1.2rem;
+  }
+
+  .cardBody {
+    padding: 15px;
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .formRow {
+    flex-direction: column;
+  }
+
+  .buttonGroup {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .formContainer {
+    padding: 10px;
+  }
+
+  .formGroup {
+    min-width: 100%; /* Stack form inputs on small screens */
+  }
+
+  .btnPrimary {
+    width: 100%;
+  }
+}

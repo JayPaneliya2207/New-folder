@@ -1,0 +1,75 @@
+/* style.module.css */
+
+.pages_container {
+    padding: 20px;
+  }
+  
+  .container-fluid {
+    margin: 0 auto;
+  }
+  
+  .breadcrumb {
+    background: transparent;
+    padding: 0;
+  }
+  
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table-hover {
+    transition: background-color 0.2s;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table th,
+  .table td {
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .col-lg-8 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .page-title {
+      font-size: 1.25rem;
+    }
+  
+    .table img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  
+  .form_group{
+    margin-bottom: 10px;
+    
+  }
+  .form_groups{
+    display: flex;
+    gap: 10px;
+  }

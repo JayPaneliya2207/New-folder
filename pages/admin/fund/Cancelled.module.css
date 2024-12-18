@@ -1,0 +1,56 @@
+/* Cancelled.module.css */
+.pagesContainer {
+  padding: 20px;
+}
+
+.pageTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  margin-bottom: 20px;
+}
+
+.filterForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tableResponsive {
+  overflow-x: auto;
+}
+
+.statusBadge {
+  background-color: #eb0000;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.paymentSlipImage {
+  height: 50px;
+  width: 50px;
+}
+.filterForm {
+  max-width: 600px;
+}
+
+.filterInput {
+  width: 100%;
+}
+.form-group {
+  max-width: 600px;
+  margin: auto;
+  width: 33%;
+}
+
+.form-group {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-control {
+  min-width: 120px;
+}

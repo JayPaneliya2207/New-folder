@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+.menu-anchor:hover {
+  background-color: black !important;
+  font-weight: bolder;
+}
+
+.menu-label {
+  font-size: 13px;
+}
+
+.button {
+  right: 20px;
+}
+.hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.15;
+}
+.a,
+.fpTHfu {
+  background-color: #72e9a8 !important;
+}
+.sidebar_section {
+  background: #1a202c !important; 
+}
+.sidebar-custom {
+  background-color: #172b4d;
+  height: 100vh;
+  position: absolute;
+  z-index: 9999;
+  overflow-y: auto;
+}
+.logo_section{
+  width: 65% !important;
+}
+.sidebar-custom .app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

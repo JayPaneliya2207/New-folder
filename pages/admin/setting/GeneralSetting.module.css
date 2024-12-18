@@ -1,0 +1,142 @@
+/* GeneralSettings Styling */
+.containerFluid {
+  padding: 20px;
+}
+
+.card {
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.breadcrumb {
+  background-color: #f8f9fa;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.tableStriped tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.tableHover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table th {
+  background-color: #bfbfbf;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+.cardTableInner {
+  overflow-x: auto;
+}
+
+.btnInfo {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btnInfo:hover {
+  background-color: #0056b3;
+}
+
+.btnInfo i {
+  margin-right: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 10px;
+  }
+  .editButtonSpan {
+    background: #9d9d9d;
+    padding: 9px 14px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 10%; /* Set the button width to 10% */
+    margin: 0 auto; /* Center the button */
+  }
+}
+.containerFluid {
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cardTableInner {
+  overflow-x: auto;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.btnInfo {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+}
+
+.btnInfo:hover {
+  background-color: #138496;
+}
+.editButtonSpan {
+  background: #9d9d9d;
+  padding: 9px 14px;
+  border-radius: 4px;
+}
+
+.editButtonSpan i {
+  font-size: 16px;
+}
+
+.editButtonText {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .editButtonSpan {
+    padding: 6px 10px;
+    gap: 4px;
+    width: auto;
+  }
+
+  .editButtonSpan i {
+    font-size: 14px;
+  }
+
+  .editButtonText {
+    font-size: 12px;
+  }
+}

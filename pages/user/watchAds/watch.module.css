@@ -1,0 +1,26 @@
+.watchadd_container_section {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.darkmode_watchadd_container_section {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.watch_ads {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}

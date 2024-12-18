@@ -1,0 +1,30 @@
+        [
+          "contactNumber",
+          "city",
+          "gender",
+          "country",
+          "kycStatus",
+        ].forEach((item) => {
+          if (postdata[item] != undefined && postdata[item] != "") {
+            set[item] = postdata[item];
+          }
+        });
+
+
+    const validateFields = [
+      "txType",
+      "debitCredit",
+      "amount",
+      "walletType",
+      "method",
+    ];
+    const response = await Common.requestFieldsValidation(
+      validateFields,
+      postData
+    );
+
+user
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyMTExQGdtYWlsLmNvbSIsInVzZXJfaWQiOiI2NzE3YmQ1NjRhOTM1OWE2YmM2Y2Y1ZDkiLCJuYW1lIjoidGVzdHVzZXIxMTEiLCJwcm9maWxlX2ltZyI6IiIsInNob3J0X25tIjoidCIsInJvbGUiOjIsImNyZWF0ZWRBdCI6IjIwMjQtMTAtMjJUMTQ6NTc6MjYuOTMzWiIsImlhdCI6MTcyOTY5NjI1MCwiZXhwIjoxNzI5NzgyNjUwfQ.QM0JDgcBNtgIPzBTrdqO557CCpLNnXPKGnpFEhV26Ks
+
+admin

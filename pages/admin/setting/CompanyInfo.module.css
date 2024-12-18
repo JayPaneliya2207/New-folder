@@ -1,0 +1,159 @@
+.breadcrumbContainer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardContainer {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.75rem;
+}
+
+.table th {
+  background-color: #f1f3f5;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+}
+
+.inputField {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.submitButton {
+  background-color: #11cdef;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #138496;
+}
+
+.imageThumbnail {
+  height: 100px;
+  width: 130px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    font-size: 0.9rem;
+  }
+
+  .inputField {
+    font-size: 0.9rem;
+  }
+
+  .imageThumbnail {
+    height: 80px;
+    width: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table {
+    width: 100%;
+    display: block;
+    min-width: 600px;
+  }
+
+  .breadcrumbContainer {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .cardContainer {
+    margin-bottom: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .inputField {
+    width: 100%;
+    margin: 0.25rem 0;
+    padding: 0.75rem;
+  }
+
+  .submitButton {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .imageThumbnail {
+    height: 80px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .breadcrumbContainer {
+    padding: 0.25rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+  }
+
+  .inputField {
+    font-size: 0.9rem;
+  }
+
+  .submitButton {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .imageThumbnail {
+    height: 60px;
+    width: 80px;
+  }
+}

@@ -1,0 +1,154 @@
+.topup_section {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.topup_activate {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  background-image: url("/images/dashboard/teambg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+  box-shadow: 0 4px 10px rgba(21, 222, 248, 0.4);
+  color: #fff;
+}
+.darkmode_topup_section {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+
+@keyframes fadeInSlideTopupForm {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.topup_form {
+  animation: fadeInSlideTopupForm 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.topup_form {
+  position: absolute;
+  right: 25px;
+  top: 20%;
+}
+
+@keyframes fadeInSlideTopupImg {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.img_fluid {
+  animation: fadeInSlideTopupImg 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.img_fluid {
+  margin-left: 25px;
+}
+.export_btn {
+  background: linear-gradient(
+    90deg,
+    rgba(31, 89, 121, 1) 0%,
+    rgba(62, 171, 194, 0.9304096638655462) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.export_btn:hover {
+  border: 0.5px solid rgba(55, 212, 252, 0.4);
+  box-shadow: 0 1px 4px 4px rgba(55, 212, 252, 0.4);
+  font-weight: bold;
+}
+.topup_steps_activate {
+  background: linear-gradient(
+    127.09deg,
+    rgba(10, 14, 35, 0.49) 19.41%,
+    rgba(24, 29, 60, 0.94) 76.65%
+  );
+  box-shadow: 0 4px 10px rgba(55, 212, 252, 0.2);
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .topup_form {
+    position: absolute;
+    width: 50%;
+    right: 0px;
+    top: 20%;
+    display: flex;
+  }
+  .img_fluid {
+    margin-left: 5px;
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .topup_activate {
+    display: block !important;
+  }
+  .topup_form {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .img_fluid {
+    margin-left: 95px;
+    width: 70%;
+  }
+  .topup_section {
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .topup_form {
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .img_fluid {
+    width: 100%;
+    margin-left: 6px;
+  }
+  .topup_section {
+    height: 100%;
+  }
+}

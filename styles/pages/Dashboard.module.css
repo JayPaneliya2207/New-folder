@@ -1,0 +1,638 @@
+.hero_section {
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.dashboard_hero_section {
+  background: radial-gradient(
+    circle,
+    rgba(41, 50, 92, 0.9640231092436975) 24%,
+    rgba(19, 15, 47, 1) 81%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+
+.welcome_banner {
+  background: linear-gradient(
+    90deg,
+    rgb(53, 16, 75) 5%,
+    rgba(27, 29, 93, 1) 100%
+  );
+  border-radius: 9px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.hero_section .welcome_banner h3 {
+  text-decoration: none;
+}
+.view_profile {
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 5px;
+  backdrop-filter: blur(1000px);
+  border: 0.5px solid white;
+  border-radius: 20px;
+}
+
+.view_profile a {
+  text-decoration: none;
+  color: #a0aec0;
+}
+.view_profile a:hover {
+  color: white;
+}
+
+.side_animate_video {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 0;
+}
+
+.affiliate_refer_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  color: white;
+  border-radius: 8px;
+}
+
+.wallet_input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.wallet_input input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.copyButton {
+  background-color: #4caf50;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inner_welcome_banner {
+  z-index: 1;
+  color: white;
+  padding: 20px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.inner_welcome_banner h5,
+.inner_welcome_banner h4,
+.inner_welcome_banner p,
+.inner_welcome_banner a {
+  margin: 5px 0;
+}
+
+.background_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #000000;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.img_fluid {
+  height: 200px;
+  width: 200px;
+  margin-top: -50px;
+  padding-top: 20px;
+  margin-right: 25px;
+}
+.account_balance {
+  background: linear-gradient(
+    90deg,
+    rgba(41, 50, 92, 0.9668242296918768) 26%,
+    rgba(19, 15, 47, 1) 74%
+  );
+  border: 1px solid white;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.animate_img {
+  height: 400px;
+  width: 400px;
+}
+.animate_content {
+  margin: 20px 10px;
+  font-weight: 800;
+  color: white;
+}
+.animate_content a {
+  margin: 10px 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+.wallet_btn {
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 5px;
+  backdrop-filter: blur(1000px);
+  border: 0.5px solid white;
+  color: #a0aec0;
+  border-radius: 20px;
+}
+
+.wallet_btn:hover {
+  background: linear-gradient(
+    127.09deg,
+    rgba(6, 11, 40, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  color: white;
+}
+
+.dash_animate {
+  position: relative;
+}
+
+.wallet_input {
+  display: flex;
+}
+.wallet_input input {
+  width: 80%;
+  margin: 10px 10px 10px 54px;
+  background: #f3f8ff;
+}
+.wallet_input .copyButton {
+  height: 47px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background: #f3f8ff;
+}
+
+.card_icon_section {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(72, 93, 153, 0.2);
+  backdrop-filter: blur(100px);
+  box-shadow: 0px 4px 5px rgba(11, 17, 39, 0.2);
+  overflow: hidden;
+  color: white;
+}
+.card_icon {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+
+.dash_card_image {
+  width: auto;
+  height: auto;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.account_balance {
+  animation: fadeInSlide 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.statistics_card_1,
+.statistics_card_2,
+.statistics_card_3 {
+  position: relative;
+  height: 220px;
+  background-image: url("/images/dashboard/cardbg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statistics_card_1:hover,
+.statistics_card_2:hover,
+.statistics_card_3:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.5);
+}
+
+.statistics_card_1::before,
+.statistics_card_1::after,
+.statistics_card_2::before,
+.statistics_card_2::after,
+.statistics_card_3::before,
+.statistics_card_3::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.statistics_card_1::before,
+.statistics_card_2::before,
+.statistics_card_3::before {
+  top: 0;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.statistics_card_1::after,
+.statistics_card_2::after,
+.statistics_card_3::after {
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 10px;
+  border-top: none;
+  border-left: none;
+}
+
+.dash_underline {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgb(224, 225, 226) 49.52%,
+    rgba(224, 225, 226, 0) 100%
+  );
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.card_section {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+}
+
+.img_bg {
+  height: 130px;
+  width: 130px;
+  position: relative;
+}
+.wallet_sec {
+  background: linear-gradient(
+    90deg,
+    rgba(41, 50, 92, 0.9668242296918768) 26%,
+    rgba(19, 15, 47, 1) 74%
+  );
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.e_wallet_images {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  border: 1px solid rgb(108, 253, 229);
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.e_wallet_images:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(62, 250, 219, 0.7);
+}
+.e_wallet_images1 {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  border: 1px solid rgb(93, 187, 250);
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.e_wallet_images1:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(53, 174, 255, 0.7);
+}
+.e_wallet_images2 {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  border: 1px solid rgb(252, 191, 79);
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.e_wallet_images2:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(252, 179, 43, 0.7);
+}
+
+.withdrwalimg {
+  background-color: #3a9b7e;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+.recivedimg {
+  background-color: rgb(45, 75, 114);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+.pendingimg {
+  background-color: rgb(134, 102, 32);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+
+.team_section {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  background-image: url("/images/dashboard/teambg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team_border {
+  padding: 20px;
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  margin-top: 22px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+}
+
+.team_border1 {
+  border: 1px solid white;
+}
+.earning_header {
+  color: white;
+}
+.earning_section {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #a0aec0;
+}
+
+.recent_data_eraning {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.earning_border {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.dash_earning_border {
+  padding: 20px;
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  margin-top: 22px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+}
+.dash_earning_border:hover {
+  background: linear-gradient(
+    40deg,
+    rgba(12, 36, 62, 1) 40%,
+    rgba(62, 184, 194, 0.9304096638655462) 100%
+  );
+  transform: scale(1.05);
+  box-shadow: 0px 0.5px 4px 4px rgba(53, 145, 132, 0.4);
+}
+
+.table_section {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.dash_table_heading {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 15, 47, 1) 36%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+}
+.dash_tab_body {
+  background: radial-gradient(
+    circle,
+    rgba(41, 50, 92, 0.9668242296918768) 26%,
+    rgb(19, 15, 44) 74%
+  );
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+.darkmode_dash_tab_body {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  color: white;
+  box-shadow: 0px 0.5px 4px 4px rgba(16, 90, 133, 0.4);
+  border-radius: 20px;
+}
+.tab_button {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "cursive";
+}
+.tab_button.active {
+  margin: 7px;
+  color: white;
+  border-radius: 5px;
+  backdrop-filter: blur(1000px);
+  border: 0.5px solid rgb(143, 236, 253);
+  border-radius: 20%;
+}
+
+.tab_panel {
+  background: linear-gradient(
+    40deg,
+    rgba(12, 36, 62, 1) 30%,
+    rgba(62, 184, 194, 0.9304096638655462) 100%
+  );
+  box-shadow: 0px 1px 4px 4px rgba(5, 68, 83, 0.4);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+}
+.tab_panel strong {
+  margin-right: 3px;
+}
+
+/* Mobile view */
+@media screen and (max-width: 1024px) {
+  .acc_balance {
+    display: flex !important;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img_fluid {
+    height: 180px;
+    width: 180px;
+    margin-top: -25px;
+    padding-top: 17px;
+    margin-right: 0px;
+  }
+
+  .animate_img {
+    height: 260px;
+    width: 280px;
+    margin-left: 40px;
+  }
+  .animate_content {
+    margin-top: 30px !important;
+    margin-left: 40px;
+  }
+  .response_wallet_btn {
+    margin-top: 10px !important;
+  }
+  .animate_content h1 {
+    font-size: 25px;
+  }
+  .finance_section {
+    display: block !important;
+  }
+  .tab_panel {
+    display: block !important;
+    text-align: center;
+  }
+  .tab_panel p {
+    padding: 12px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .animate_img {
+    height: 250px;
+    width: 300px;
+    margin-left: 90px;
+  }
+  .acc_balance {
+    display: block !important;
+  }
+  .animate_content {
+    margin-left: 120px;
+  }
+  .wallet_btn {
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+    backdrop-filter: blur(1000px);
+    border: 0.5px solid white;
+    color: #a0aec0;
+    border-radius: 20px;
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pages_container {
+    max-width: 100%;
+    padding: 0 15px;
+    transition: none;
+  }
+  .welcome_banner {
+    display: block !important;
+  }
+  .img_fluid {
+    display: none;
+  }
+  .welcome_banner h2 {
+    font-size: 25px;
+  }
+  .inner_welcome_banner {
+    margin-top: 45px;
+  }
+  .view_profile {
+    width: 100px;
+  }
+  .response_account_section {
+    width: 100%;
+  }
+  .earning_section {
+    width: 100%;
+  }
+  .animate_img {
+    margin-left: 15px;
+  }
+  .animate_content {
+    margin-left: 30px;
+  }
+  .animate_content h1 {
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  .recent_data_eraning {
+    display: block !important;
+  }
+  .finance_section {
+    display: flex !important;
+  }
+  .dash_table_heading h3 {
+    font-size: 30px;
+  }
+}

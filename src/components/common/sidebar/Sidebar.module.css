@@ -1,0 +1,129 @@
+.page_sidebar {
+  margin-top: 70px;
+  position: fixed;
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+  width: 50px; 
+  height: 100%;
+  overflow: auto;
+  font-weight: 700;
+  font-size: 22px;
+  background: radial-gradient(circle, rgba(41,50,92,1) 24%, rgba(19,15,47,1) 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  color: #f7f9fb;
+  transition: width 0.3s ease; 
+}
+
+.open {
+  width: 250px;
+}
+
+.sidebar_close {
+  width: 50px; 
+}
+
+.sidebar_menu {
+  list-style: none;
+  padding: 10px;
+}
+
+.sidebar_menu li {
+  padding: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.pc-arrow {
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+.pc-arrow.rotate {
+  transform: rotate(90deg);
+}
+
+.main-container {
+  display: flex;
+  background-color: #f7f9fb;
+}
+
+.link {
+  display: flex;
+  color: black;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  color: #f7f9fb;
+}
+
+.sidebar_close .link_text {
+  display: none; /* Hide text when sidebar is closed */
+}
+
+.link:hover {
+  border-left: 5px solid rgb(228, 228, 228);
+  background: linear-gradient(90deg, rgba(19,15,47,1) 26%, rgba(41,50,92,0.9668242296918768) 74%);
+  border-radius: 5px;
+}
+
+.active {
+  border-left: 5px solid rgb(228, 228, 228);
+  background: linear-gradient(90deg, rgba(19,15,47,1) 26%, rgba(41,50,92,0.9668242296918768) 74%);
+  border-radius: 3px;
+  padding: 12px;
+  transition: all 400ms ease;
+  position: relative;
+  margin-top: 2px;
+} 
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu_item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.menu_container {
+  overflow: hidden;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.circle_icon {
+  margin-right: 0px;
+  font-size: 10px; 
+  color: #f97407; 
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .open {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .page_sidebar {
+    display: none; 
+  } */
+}

@@ -1,0 +1,154 @@
+.withdrwal_section_container {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.withdrwalreport_section_container {
+  background: radial-gradient(
+    circle,
+    rgba(19, 15, 47, 1) 26%,
+    rgba(41, 50, 92, 0.9668242296918768) 74%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.withdrawal_sect {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.darkmode_withdrwal_section_container {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  position: relative;
+}
+.report_withdrwalreport_section_container {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 22, 57, 1) 0%,
+    rgba(12, 23, 46, 1) 100%,
+    rgba(9, 15, 64, 0.9304096638655462) 100%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.withdrawal_section {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  color: white;
+  padding: 10px;
+  background-image: url("/images/dashboard/cardbg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.main_Withdraw {
+  border-radius: 10px;
+  padding: 16px 16px;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 15%);
+  opacity: 1;
+  background: linear-gradient(to right, #083ba8, #569aff) !important;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_Withdraw_form {
+  border-radius: 10px;
+  padding: 16px 16px;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 15%);
+  opacity: 1;
+  background: linear-gradient(
+    40deg,
+    rgba(12, 36, 62, 1) 40%,
+    rgba(62, 184, 194, 0.9304096638655462) 100%
+  );
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_balance {
+  display: flex;
+  justify-content: space-between;
+}
+.main_balance h3 {
+  font-size: 20px;
+}
+.main_balance h1 {
+  font-size: 32px;
+  /* color: #fff; */
+}
+.dolo_icon span {
+  padding: 10px;
+  background-color: #fff;
+  font-size: 20px;
+  color: #000 !important;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.Withdraw_row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.2rem;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .main_box {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_box {
+    margin-top: 40px;
+  }
+}
+
+/* withdrawl report */
+.export_btn {
+  background: linear-gradient(to right, #083ba8, #569aff) !important;
+  border-radius: 5px;
+  color: #fff;
+}
+.withdrawal_export_btn {
+  text-align: right;
+  width: 100%;
+}
+.withdrawal_report_sect {
+  background: linear-gradient(
+    127.09deg,
+    rgba(24, 29, 60, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+  color: white;
+  padding: 10px;
+  background-image: url("/images/dashboard/teambg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 4px 10px rgba(42, 177, 255, 0.2);
+}

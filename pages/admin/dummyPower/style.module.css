@@ -1,0 +1,64 @@
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  padding: 15px;
+}
+
+.pageTitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  font-size: 1rem;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.formTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.formRow {
+  margin-top: 20px;
+}
+
+.cardBody {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background-color: #fff;
+}
+
+.label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}

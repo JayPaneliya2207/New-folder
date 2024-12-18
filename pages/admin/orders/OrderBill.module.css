@@ -1,0 +1,136 @@
+.container {
+    padding: 1rem;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    list-style: none;
+  }
+  
+  .breadcrumb-item {
+    margin-right: 0.5rem;
+  }
+  
+  .breadcrumb-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+    color: #6c757d;
+  }
+  
+  .invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .invoice-box table {
+    width: 100%;
+    line-height: 1.6;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  
+  .invoice-box table td {
+    padding: 0.5rem;
+  }
+  
+  .invoice-box .title img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    width: 100px !important;
+  }
+  
+  .invoice-box .heading td {
+    font-weight: bold;
+    background-color: #f8f8f8;
+    padding: 0.7rem;
+  }
+  
+  .invoice-box .item td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .invoice-box .total td:last-child {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .breadcrumb {
+      font-size: 12px;
+      padding: 0.3rem 0.5rem;
+    }
+  
+    .invoice-box {
+      padding: 1rem;
+      box-shadow: none;
+    }
+  
+    .invoice-box table td {
+      padding: 0.3rem;
+      font-size: 14px;
+    }
+  
+    .invoice-box .title img {
+      width: 60px;
+    }
+  
+    .btn {
+      font-size: 14px;
+      padding: 0.4rem 0.8rem;
+    }
+  
+    /* Adjust table layout for smaller screens */
+    .invoice-box table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .invoice-box table tr {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  
+    .invoice-box table tr td {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  

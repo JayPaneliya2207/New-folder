@@ -1,0 +1,84 @@
+.pageTitle {
+  font-size: 24px; /* Adjust title font size */
+  margin-bottom: 20px; /* Add space below the title */
+}
+
+.breadcrumb {
+  font-size: 14px; /* Adjust breadcrumb font size */
+}
+
+.table-responsive {
+  overflow-x: auto; /* Allow horizontal scrolling on smaller viewports */
+}
+
+.table {
+  width: 100%; /* Ensure table takes full width */
+  border-collapse: collapse; /* Remove spacing between table cells */
+}
+
+.table th,
+.table td {
+  padding: 12px; /* Add padding for table cells */
+  text-align: left; /* Align text to the left */
+}
+
+.paymentSlipImage {
+  width: 50px; /* Set a fixed width for images in the table */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.badge-warning {
+  background-color: #ffcc00; /* Update badge color if necessary */
+}
+
+/* Additional media query for larger screens */
+@media (min-width: 992px) {
+  .form-control {
+    width: 250px; /* Set a fixed width for the input fields */
+  }
+  .table th {
+    font-size: 16px; /* Increase font size for table headers */
+  }
+  .table td {
+    font-size: 14px; /* Increase font size for table data */
+  }
+}
+
+.table th {
+  background-color: #f8f9fa; /* Light background for headers */
+  border-bottom: 2px solid #dee2e6; /* Distinguish header from body */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.formControl {
+  width: 100%;
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 8px 16px;
+}
+
+@media (min-width: 992px) {
+  .formRow {
+    display: flex;
+    gap: 10px;
+  }
+  .formControl {
+    min-width: 250px;
+    max-width: 300px;
+  }
+}
+.filterForm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .filterForm {
+    max-width: 600px;
+  }

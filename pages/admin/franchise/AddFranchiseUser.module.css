@@ -1,0 +1,97 @@
+.headerRow {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageTitle {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+.activeBreadcrumb {
+  font-weight: bold;
+  color: #555;
+}
+
+.sectionTitle {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.formCard {
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formControl {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.saveButton:hover {
+  background-color: #5365ce;
+}
+
+@media (max-width: 768px) {
+  .formGroup {
+    margin-bottom: 10px;
+  }
+
+  .formCard {
+    padding: 15px;
+  }
+
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+
+  .formControl {
+    font-size: 0.85rem;
+  }
+
+  .saveButton {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}
+
+.saveButton {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  background-color: #5e72e4;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+}
+.label {
+  color: #575e61;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
